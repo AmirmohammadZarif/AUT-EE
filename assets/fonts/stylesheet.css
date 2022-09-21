@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Yekan Bakh Fat';
+    src: url('YekanBakh-Fat.eot');
+    src: local('YekanBakh-Fat'),
+        url('YekanBakh-Fat.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Fat.woff2') format('woff2'),
+        url('YekanBakh-Fat.woff') format('woff'),
+        url('YekanBakh-Fat.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('YekanBakh-Medium.eot');
+    src: local('YekanBakh-Medium'),
+        url('YekanBakh-Medium.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Medium.woff2') format('woff2'),
+        url('YekanBakh-Medium.woff') format('woff'),
+        url('YekanBakh-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('YekanBakh-Bold.eot');
+    src: local('YekanBakh-Bold'),
+        url('YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Bold.woff2') format('woff2'),
+        url('YekanBakh-Bold.woff') format('woff'),
+        url('YekanBakh-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('YekanBakh-Light.eot');
+    src: local('YekanBakh-Light'),
+        url('YekanBakh-Light.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Light.woff2') format('woff2'),
+        url('YekanBakh-Light.woff') format('woff'),
+        url('YekanBakh-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('YekanBakh-Heavy.eot');
+    src: local('YekanBakh-Heavy'),
+        url('YekanBakh-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Heavy.woff2') format('woff2'),
+        url('YekanBakh-Heavy.woff') format('woff'),
+        url('YekanBakh-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('YekanBakh-Thin.eot');
+    src: local('YekanBakh-Thin'),
+        url('YekanBakh-Thin.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Thin.woff2') format('woff2'),
+        url('YekanBakh-Thin.woff') format('woff'),
+        url('YekanBakh-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('YekanBakh-Regular.eot');
+    src: local('YekanBakh-Regular'),
+        url('YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Regular.woff2') format('woff2'),
+        url('YekanBakh-Regular.woff') format('woff'),
+        url('YekanBakh-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh Hairline';
+    src: url('YekanBakh-Hairline.eot');
+    src: local('YekanBakh-Hairline'),
+        url('YekanBakh-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('YekanBakh-Hairline.woff2') format('woff2'),
+        url('YekanBakh-Hairline.woff') format('woff'),
+        url('YekanBakh-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

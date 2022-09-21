@@ -1,0 +1,77 @@
+body {
+    font-family: 'Yekan Bakh';
+}
+
+.boxed {
+    width: 95%!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.bgkhas:before{
+    position: absolute;
+    right: 0;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    border-radius: 50px;
+    transform: skewY(-12deg);
+    transform: rotateZ(5deg);
+    background: #f4f7fc;
+    background: -moz-linear-gradient(top,#F3F7FF 0,rgba(255,255,255,0) 80%);
+    background: -webkit-linear-gradient(top,#F3F7FF 0,rgba(255,255,255,0) 80%);
+    background: linear-gradient(to bottom,#F3F7FF 0,rgba(255,255,255,0) 80%);
+    transform-origin: top center;
+    top: 380px;
+    left: -100px;
+}
+.bgkhas2:before{
+    position: absolute;
+    right: 50px;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    border-radius: 50px;
+    transform: skewY(-12deg);
+    background: #f4f7fc;
+    background: -moz-linear-gradient(top,#F3F7FF 0,rgba(255,255,255,0) 70%);
+    background: -webkit-linear-gradient(top,#F3F7FF 0,rgba(255,255,255,0) 70%);
+    background: linear-gradient(to bottom,#F3F7FF 0,rgba(255,255,255,0) 70%);
+    transform-origin: top center;
+    opacity: 0.6;
+    top: 250px;
+}
+.c-shadow{
+    box-shadow: 0 8px 60px 0 rgba(103,151,255,.11), 0 12px 90px 0 rgba(103,151,255,.11);
+}
+
+.bg-blur{
+    backdrop-filter: saturate(150%) blur(20px);
+}
+
+#hero{
+    background-image: url('../images/ee.jpeg');
+
+}
+
+.title-text{
+    background: #1488cc; 
+    background: -webkit-linear-gradient(to right, #0e6ba0, #2b32b2);
+    background: linear-gradient(to right, #0e6ba0, #2b32b2); 
+    background-clip: text;
+    color: transparent;
+    float : right;
+    font-weight: 900;
+    -webkit-background-clip: text!important;
+    text-align : right;
+    opacity : 1;
+    transition: all 0.2s ease-out;
+}
+
+.c-box {
+    box-shadow: rgba(191, 206, 222, 0.8) 0px 5px 15px 0px;
+}
