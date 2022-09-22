@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-
+<!-- By A.Z -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +15,13 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blur ab-top info-bar" style="direction:ltr; text-align:left;">
+        <a class="navbar-brand d-flex float-end" href="https://aut.ac.ir/">
+            <img src="./assets/images/aut-logo.png" alt="Logo" height="20" class="float-start d-inline-block align-text-top">
+            <h6 class="text-light m-auto fw-normal fs-6 me-1">دانشگاه صنعتی امیرکبیر (پلی تکنیک تهران)</h6>
+        </a>
+    </nav>
+        
     <nav class="navbar navbar-expand-lg navbar-dark bg-blur bg-primary sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">

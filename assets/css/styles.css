@@ -54,8 +54,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero{
-    background-image: url('../images/ee.jpeg');
-
+    background-image: url('../images/ee.jpeg'), linear-gradient(rgba(45, 92, 247, 0.1),rgba(50, 47, 227, 0.2));
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: top;
 }
 
 .title-text{
@@ -74,4 +76,27 @@ h1, h2, h3, h4, h5, h6 {
 
 .c-box {
     box-shadow: rgba(191, 206, 222, 0.8) 0px 5px 15px 0px;
+    border: #00000000 2px solid!important;
+    transition: border 0.2s ease-in-out;
+}
+
+.c-box:hover{
+    border: #0b1e43 2px solid!important;
+    transition: border 0.2s ease-in-out;
+}
+
+.info-bar {
+    background-color: #0a3979;
+}
+
+.accent {
+    color: #0b1e43 !important;
+}
+
+.c-link {
+    text-decoration: none;
+}
+
+.box-border{
+    border: #1673f5 2px solid;
 }
