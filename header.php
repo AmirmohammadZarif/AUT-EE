@@ -22,7 +22,7 @@
         </a>
     </nav>
         
-    <nav class="navbar navbar-expand-lg navbar-dark bg-blur bg-primary sticky-top">
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-blur sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,23 @@
                         <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">راهنمای طبقات دانشکده</a>
+                        <a class="nav-link" href="#dean">دفتر رئیس دانشکده</a>
                     </li>
-                 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">دفتر آموزش </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#graduate">دفتر تحصیلات تکمیلی </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faculty">اتاق اساتید </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#labs">آزمایشگاه ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">تماس با ما</a>
+                    </li>
                 </ul>
                 
             </div>

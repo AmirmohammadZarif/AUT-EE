@@ -100,3 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 .box-border{
     border: #1673f5 2px solid;
 }
+
+#main-nav{
+    background: #0003b3c7;
+}

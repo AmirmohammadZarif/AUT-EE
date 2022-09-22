@@ -1,7 +1,7 @@
 <?php
 include_once './header.php';
 ?>
-<main class="container">
+<main data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container">
 
     <div id="hero" class="p-4 p-lg-5 mt-5 mb-4 rounded text-bg-dark">
         <div class="col-lg-6 px-0 p-lg-5">
