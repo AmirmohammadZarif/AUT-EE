@@ -1,10 +1,10 @@
 # AUT-EE
 
 ## Requirements
-PHP Version: 7.2+
+PHP Version: 7.2+\
 Web server: Apache/Nginx
 
-The requirements can easily be satisfied by installing XAMPP on your local machine.
+The requirements can easily be satisfied by installing XAMPP on your local machine.\
 You can download XAMPP from [this link](https://sourceforge.net/projects/xampp/files/)
 
 ## Usage
