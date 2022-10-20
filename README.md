@@ -8,7 +8,7 @@ The requirements can easily be satisfied by installing XAMPP on your local machi
 You can download XAMPP from [this link](https://sourceforge.net/projects/xampp/files/)
 
 ## Usage
-Navigate to web server's public document direcotry and clone this repository (In XAMPP, navigate to `htdocs` directory):
+Navigate to web server's public document directory and clone this repository (In XAMPP, navigate to `htdocs` directory):
 ```bash
 cd htdocs
 git clone https://github.com/AmirmohammadZarif/AUT-EE.git
