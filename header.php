@@ -21,7 +21,7 @@
             <h6 class="text-light m-auto fw-normal fs-6 me-1">دانشگاه صنعتی امیرکبیر (پلی تکنیک تهران)</h6>
         </a>
     </nav>
-        
+    
     <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-blur sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +56,7 @@
                     </li>
                 </ul>
                 
+                <input type="text" id="search-input" onkeyup="myFunction()" placeholder="جستجو" title="جستجو">
             </div>
         </div>
     </nav>

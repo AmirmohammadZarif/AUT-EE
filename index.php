@@ -5,7 +5,7 @@ include_once './header.php';
 
     <div id="hero" class="p-4 p-lg-5 mt-5 mb-4 rounded text-bg-dark">
         <div class="col-lg-6 px-0 p-lg-5">
-            <h1 class="display-4 fw-bold">خوش آمدید</h1>
+            <h1 class="display-4 fw-bold">از من بپرس!</h1>
             <h2 class="lead my-3">دانشکده مهندسی برق دانشگاه صنعتی امیرکبیر (پلی تکنیک تهران)</h2>
         </div>
     </div>
@@ -816,7 +816,7 @@ include_once './header.php';
                     <h5 class="mb-3">طبقه سوم (راهرو شمالی-غرب)</h5>
                     <div class="card p-0 mb-4">
                         <div class="card-bodys g-0 p-0">
-                            <table class="table">
+                            <table class="table" id="m-table">
                                 <thead class="table-light">
                                     <tr>
                                         <th scope="col">آزمایشگاه</th>
@@ -939,8 +939,9 @@ include_once './header.php';
             </div>
         </div>
     </div>
-
+    
 </main>
+
 <?php
 include_once './footer.php';
 ?>

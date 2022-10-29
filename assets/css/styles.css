@@ -104,3 +104,35 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav{
     background: #0003b3c7;
 }
+
+#search-input {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 20%;
+    margin-left:30px;
+    font-size: 16px;
+    padding: 7px 20px 7px 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
