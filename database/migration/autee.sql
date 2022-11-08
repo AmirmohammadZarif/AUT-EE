@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 08, 2022 at 03:25 PM
+-- Generation Time: Nov 08, 2022 at 11:40 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.29
 
@@ -179,21 +179,21 @@ INSERT INTO `sections` (`id`, `slug`, `title`, `subtitle`, `description`, `avail
 (2, 'education', 'دفتر آموزش', NULL, NULL, 'شنبه تا چهارشنبه در ساعات اداری', 'default', 'parent', NULL, -1),
 (3, 'graduate', 'دفتر تحصیلات تکمیلی', NULL, NULL, 'شنبه تا چهارشنبه در ساعات اداری', 'default', 'parent', NULL, -1),
 (4, 'faculty', 'اتاق اساتید', NULL, NULL, NULL, 'default', 'parent', NULL, -1),
-(5, '#8th-faculty', 'اساتید طبقه هشتم ابوریحان', NULL, NULL, NULL, 'default', 'faculty', NULL, 4),
-(6, '#8th-centers', 'مراکز طبقه هشتم ابوریحان', NULL, NULL, NULL, 'default', 'center', NULL, 4),
-(7, '#7th-N', 'اساتید طبقه هفتم ابوریحان (راهرو شمالی)', NULL, NULL, NULL, 'default', 'faculty', NULL, 4),
-(8, '#7th-S', 'اساتید طبقه هفتم ابوریحان (راهرو جنوبی)', NULL, NULL, NULL, 'default', 'faculty', NULL, 4),
+(5, '', 'اساتید طبقه هشتم ابوریحان', NULL, NULL, NULL, 'default', 'faculty', NULL, 4),
+(6, '', 'مراکز طبقه هشتم ابوریحان', NULL, NULL, NULL, 'default', 'center', NULL, 4),
+(7, '', 'اساتید طبقه هفتم ابوریحان (راهرو شمالی)', NULL, NULL, NULL, 'default', 'faculty', NULL, 4),
+(8, '', 'اساتید طبقه هفتم ابوریحان (راهرو جنوبی)', NULL, NULL, NULL, 'default', 'faculty', NULL, 4),
 (9, 'labs', 'آزمایشگاه ها', NULL, NULL, NULL, 'default', 'parent', NULL, -1),
-(10, '#9th', 'طبقه نهم', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(11, '#6thNE', 'طبقه ششم (راهرو شمالی-شرقی)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(12, '#6thSE', 'طبقه ششم (راهرو جنوبی-شرقی)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(13, '#3thNE', 'طبقه سوم (راهرو شمالی-شرق)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(14, '#3thSE', 'طبقه سوم (راهرو جنوبی-شرق)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(15, '#3thNW', 'طبقه سوم (راهرو شمالی-غرب)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(16, '#3thSW', 'طبقه سوم (راهرو جنوبی-غرب)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
-(17, '#d', 'کارشناسان دفتر ریاست در طبقه هشتم ابوریحان', NULL, NULL, NULL, 'default', 'office', NULL, 1),
-(18, '#e', 'کارشناسان دفتر آموزش در طبقه چهارم ابوریحان', NULL, NULL, NULL, 'default', 'office', NULL, 2),
-(19, '#g', 'کارشناسان دفتر تحصیلات تکمیلی در طبقه چهارم ابوریحان', NULL, NULL, NULL, 'default', 'office', NULL, 3);
+(10, '', 'طبقه نهم', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(11, '', 'طبقه ششم (راهرو شمالی-شرقی)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(12, '', 'طبقه ششم (راهرو جنوبی-شرقی)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(13, '', 'طبقه سوم (راهرو شمالی-شرق)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(14, '', 'طبقه سوم (راهرو جنوبی-شرق)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(15, '', 'طبقه سوم (راهرو شمالی-غرب)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(16, '', 'طبقه سوم (راهرو جنوبی-غرب)', NULL, NULL, NULL, 'default', 'lab', NULL, 9),
+(17, '', 'کارشناسان دفتر ریاست در طبقه هشتم ابوریحان', NULL, NULL, NULL, 'default', 'office', NULL, 1),
+(18, '', 'کارشناسان دفتر آموزش در طبقه چهارم ابوریحان', NULL, NULL, NULL, 'default', 'office', NULL, 2),
+(19, '', 'کارشناسان دفتر تحصیلات تکمیلی در طبقه چهارم ابوریحان', NULL, NULL, NULL, 'default', 'office', NULL, 3);
 
 --
 -- Indexes for dumped tables

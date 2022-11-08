@@ -1,4 +1,4 @@
-let apiURL = "api/v1/search.php";
+let frameSrc = "https://avisengine.com/autee/v2/components/results.php";
 function addResult(){
 
 }
@@ -15,5 +15,5 @@ function closeSearch() {
 
 function search() {
   var searchbox = document.getElementById("searchbox");
-  document.getElementById('search-results').src = "http://localhost/aut/components/results.php?keyword=" + searchbox.value;
+  document.getElementById('search-results').src = frameSrc + "?keyword=" + searchbox.value;
 }

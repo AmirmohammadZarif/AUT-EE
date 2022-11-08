@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-<!-- By A.Z -->
+<!-- By Amirmohammad Zarif -->
 
 <head>
     <meta charset="utf-8">
@@ -36,7 +36,7 @@ if (isset($_GET["keyword"])) :
 
     foreach ($sections_array as $section) :
 ?>
-        <div id="<? echo $section["slug"]; ?>" class="row g-0 mb-2 mt-5 ms-3 me-3">
+        <div id="<? echo $section["slug"]; ?>" class="row g-0 mb-2 mt-5 ms-5 me-5">
             <div class="col p-4 shadow-lg rounded bg-light">
                 <div class="row g-0 overflow-hidden mb-4 h-md-250 position-relative" style="overflow: visible!important;">
                     <div class="d-flex mb-1 align-middle">

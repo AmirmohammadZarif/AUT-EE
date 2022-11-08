@@ -1,15 +1,15 @@
 <?php
     $dbHost = "localhost";
-    $runsLocally = true;
+    $runsLocally = false;
     
     if($runsLocally == true){
         $dbName     = "autee";
         $dbUsername = "root";
         $dbPassword = "";
     }else{
-        $dbName = "autee";
-        $dbUsername = "";
-        $dbPassword = "";
+        $dbName = "avisen_autee";
+        $dbUsername = "avisen_auteeuser";
+        $dbPassword = "AlF0optC";
     }
     
     $con = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
