@@ -1,6 +1,6 @@
 <?php
     $dbHost = "localhost";
-    $runsLocally = false;
+    $runsLocally = true;
     
     if($runsLocally == true){
         $dbName     = "autee";

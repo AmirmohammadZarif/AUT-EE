@@ -171,7 +171,12 @@ h6 {
 }
 
 #search-overlay{
+    -moz-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
+    -o-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    transform: translate3d(0, 0, 0);
 }
 
 .overlay-content {
