@@ -16,9 +16,6 @@ function request($method, $url, $data = false)
         case "PUT":
             curl_setopt($curl, CURLOPT_PUT, 1);
             break;
-        // default:
-        //     if ($data)
-        //         $url = sprintf("%s?%s", $url, http_build_query($data));
     }
 
     curl_setopt($curl, CURLOPT_URL, $url);

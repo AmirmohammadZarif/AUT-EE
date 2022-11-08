@@ -37,19 +37,19 @@
                         <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#dean">دفتر رئیس دانشکده</a>
+                        <a class="nav-link" href="?section=dean#quick-access">دفتر رئیس دانشکده</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#education">دفتر آموزش </a>
+                        <a class="nav-link" href="?section=education#quick-access">دفتر آموزش </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#graduate">دفتر تحصیلات تکمیلی </a>
+                        <a class="nav-link" href="?section=graduate#quick-access">دفتر تحصیلات تکمیلی </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#faculty">اتاق اساتید </a>
+                        <a class="nav-link" href="?section=faculty#quick-access">اتاق اساتید </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#labs">آزمایشگاه ها</a>
+                        <a class="nav-link" href="?section=labs#quick-access">آزمایشگاه ها</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-us">تماس با ما</a>

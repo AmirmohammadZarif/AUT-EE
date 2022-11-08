@@ -21,7 +21,7 @@ include_once './header.php';
 
                 <div class="row mt-4 row-cols-2 row-cols-lg-6 g-3 g-lg-3">
                     <div class="col">
-                        <a class="c-link" href="#dean">
+                        <a class="c-link" href="?section=dean#quick-access">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-user fa-2x accent"></i>
@@ -31,7 +31,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="#education">
+                        <a class="c-link" href="?section=education#quick-access">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-books fa-2x accent"></i>
@@ -41,7 +41,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="#graduate">
+                        <a class="c-link" href="?section=graduate#quick-access">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-graduation-cap fa-2x accent"></i>
@@ -51,7 +51,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="#faculty">
+                        <a class="c-link" href="?section=faculty#quick-access">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-user-group fa-2x accent"></i>
@@ -61,7 +61,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="#labs">
+                        <a class="c-link" href="?section=graduate#quick-access">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-wave-pulse fa-2x accent"></i>
@@ -80,57 +80,53 @@ include_once './header.php';
                             </div>
                         </a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="dean" class="row g-0 mb-2 mt-5">
+    <? include 'sections.php'; ?>
+    <div id="contact-us" class="row g-0 mb-5 mt-5">
         <div class="col p-4 shadow-sm rounded bg-light">
             <div class="row g-0 overflow-hidden mb-4 h-md-250 position-relative" style="overflow: visible!important;">
                 <div class="d-flex mb-4 align-middle">
-                    <i class="fa-duotone fa-circle-info d-inline float-right fa-2x text-primary me-2"></i>
-                    <h3 class="title-text d-inline-block mb-2 d-inline text-dark">دفتر رئیس دانشکده</h3>
+                    <i class="fa-duotone fa-square-phone d-inline float-right fa-2x text-primary me-2"></i>
+                    <h3 class="title-text d-inline-block mb-2 d-inline text-dark">تماس با ما</h3>
                 </div>
 
                 <div class="row">
                     <div class="d-flex align-middle mb-4">
                         <i class="fa-duotone fa-calendar-clock d-inline float-right fa text-dark me-2"></i>
-                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-bold me-1">روز های حضور در دفتر:</p>
-                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-normal">شنبه تا چهارشنبه در ساعات اداری</p>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-bold me-1">آدرس: </p>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-normal"> ایران - تهران - میدان ولیعصر - خیابان حافظ - پلاک ۳۵۰- ساختمان ابوریحان- طبقه هشتم- دفتر ریاست . صندوق پستی :۴۴۱۳-۱۵۸۷۵</p>
                     </div>
-                    <h5 class="mb-3">کارشناسان دفتر ریاست در طبقه هشتم ابوریحان</h5>
-                    <div class="card p-0">
-                        <div class="card-bodys g-0 p-0">
-                            <table class="table">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th scope="col">نام و نام خانوادگی</th>
-                                        <th scope="col">شماره تماس</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>خانم ثریا رنجبر</td>
-                                        <td>۶۴۵۴۳۳۰۰</td>
-                                    </tr>
-                                    <tr>
-                                        <td>خانم طاهره بنایی</td>
-                                        <td>۶۴۵۴۳۳۰۱</td>
-                                    </tr>
+                    <div class="d-flex align-middle mb-4">
+                        <i class="fa-duotone fa-envelope d-inline float-right fa text-dark me-2"></i>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-bold me-1">پست الکترونیک: </p>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-normal">office.ee@aut.ac.ir</p>
+                    </div>
+                    <div class="d-flex align-middle mb-4">
+                        <i class="fa-duotone fa-phone d-inline float-right fa text-dark me-2"></i>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-bold me-1">تلفن: </p>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-normal">۶۴۵۴۳۳۰۰(۲۱)۹۸+ - ۶۴۵۴۳۳۰۱(۲۱)۹۸+</p>
+                    </div>
+                    <div class="d-flex align-middle mb-4">
+                        <i class="fa-duotone fa-fax d-inline float-right fa text-dark me-2"></i>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-bold me-1">دورنگار: </p>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-normal">۶۶۴۹۰۵۸۱(۲۱)۹۸+- ۶۶۴۰۶۴۶۹(۲۱)۹۸+</p>
+                    </div>
+                    <div class="d-flex align-middle mb-4">
+                        <i class="fa-duotone fa-mailbox d-inline float-right fa text-dark me-2"></i>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-bold me-1">کدپستی: </p>
+                        <p class="title-text d-inline-block mb-2 d-inline text-dark fw-normal">۱۵۹۱۶۳۴۳۱۱</p>
+                    </div>
 
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-
-    <?include 'dean.php';?>
-    
 </main>
 
 <?php

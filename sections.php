@@ -6,8 +6,17 @@ include "./api/config.php";
 $sections_api_result = request("POST", $api_url . "search.php", array("action" => "readAll", "slug" => "dean"));
 $sections_array = json_decode($sections_api_result, true);
 
+// $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://"; 
+// $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+// echo $url;
+
+// var_dump(parse_url($url, PHP_URL_FRAGMENT));
+
+
 foreach ($sections_array as $section) :
+    if($section["slug"] == $_GET["section"]):
 ?>
+
     <div id="<? echo $section["slug"]; ?>" class="row g-0 mb-2 mt-5">
         <div class="col p-4 shadow-sm rounded bg-light">
             <div class="row g-0 overflow-hidden mb-4 h-md-250 position-relative" style="overflow: visible!important;">
@@ -92,5 +101,6 @@ foreach ($sections_array as $section) :
         </div>
     </div>
 <?
+endif;
 endforeach;
 ?>
