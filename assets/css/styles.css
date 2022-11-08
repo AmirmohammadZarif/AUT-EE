@@ -239,3 +239,9 @@ h6 {
 .search-btn:hover{
     color:rgb(209, 209, 209)!important;
 }
+
+#search-results{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}

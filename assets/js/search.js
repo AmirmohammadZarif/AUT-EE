@@ -15,6 +15,5 @@ function closeSearch() {
 
 function search() {
   var searchbox = document.getElementById("searchbox");
-  
-  
+  document.getElementById('search-results').src = "http://localhost/aut/components/results.php?keyword=" + searchbox.value;
 }

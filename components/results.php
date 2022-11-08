@@ -14,6 +14,13 @@
 
 
     <title>دانشکده مهندسی برق | دانشگاه صنعتی امیرکبیر</title>
+    <style>
+
+        body {
+            background-color : transparent!important;
+        }
+    </style>
+
 </head>
 
 <?php
@@ -29,8 +36,8 @@ if (isset($_GET["keyword"])) :
 
     foreach ($sections_array as $section) :
 ?>
-        <div id="<? echo $section["slug"]; ?>" class="row g-0 mb-2 mt-5">
-            <div class="col p-4 shadow-sm rounded bg-light">
+        <div id="<? echo $section["slug"]; ?>" class="row g-0 mb-2 mt-5 ms-3 me-3">
+            <div class="col p-4 shadow-lg rounded bg-light">
                 <div class="row g-0 overflow-hidden mb-4 h-md-250 position-relative" style="overflow: visible!important;">
                     <div class="d-flex mb-1 align-middle">
                         <i class="fa-duotone fa-circle-info d-inline float-right fa-2x text-primary me-2"></i>

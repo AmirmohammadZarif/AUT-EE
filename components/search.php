@@ -4,7 +4,6 @@
         <input id="searchbox" onkeyup="search()" type="text" placeholder="جستجو برای ..." name="search">
     </div>
 
-    <iframe src="<?echo $base_url;?>/components/results.php?keyword=23" height="200" width="300"></iframe>
-    <div id="search-results-list">
-    </div>
+    <iframe id="search-results" allowtransparency = "true" src="<?echo $base_url;?>/components/results.php?keyword=23" height="200" width="300"></iframe>
+
 </div>
