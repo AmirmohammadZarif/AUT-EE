@@ -21,7 +21,7 @@ include_once './header.php';
 
                 <div class="row mt-4 row-cols-2 row-cols-lg-6 g-3 g-lg-3">
                     <div class="col">
-                        <a class="c-link" href="?section=dean#quick-access">
+                        <a class="c-link" href="?section=dean#dean">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-user fa-2x accent"></i>
@@ -31,7 +31,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="?section=education#quick-access">
+                        <a class="c-link" href="?section=education#education">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-books fa-2x accent"></i>
@@ -41,7 +41,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="?section=graduate#quick-access">
+                        <a class="c-link" href="?section=graduate#graduate">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-graduation-cap fa-2x accent"></i>
@@ -51,7 +51,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="?section=faculty#quick-access">
+                        <a class="c-link" href="?section=faculty#faculty">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-user-group fa-2x accent"></i>
@@ -61,7 +61,7 @@ include_once './header.php';
                         </a>
                     </div>
                     <div class="col">
-                        <a class="c-link" href="?section=graduate#quick-access">
+                        <a class="c-link" href="?section=labs#labs">
                             <div class="card text-center border-0 c-box text-dark">
                                 <div class="card-body">
                                     <i class="fa-duotone fa-wave-pulse fa-2x accent"></i>
