@@ -1,7 +1,4 @@
 let frameSrc = "https://avisengine.com/autee/v2/components/results.php";
-function addResult(){
-
-}
 
 function openSearch() {
   document.getElementById("search-overlay").style.opacity = 1;
