@@ -11,7 +11,7 @@ foreach ($sections_array as $section) :
     <div id="<? echo $section["slug"]; ?>" class="row g-0 mb-2 mt-5">
         <div class="col p-4 shadow-sm rounded bg-light">
             <div class="row g-0 overflow-hidden mb-4 h-md-250 position-relative" style="overflow: visible!important;">
-                <div class="d-flex mb-4 align-middle">
+                <div class="d-flex mb-1 align-middle">
                     <i class="fa-duotone fa-circle-info d-inline float-right fa-2x text-primary me-2"></i>
                     <h3 class="title-text d-inline-block mb-2 d-inline text-dark"><? echo $section["title"]; ?></h3>
                 </div>
@@ -28,9 +28,9 @@ foreach ($sections_array as $section) :
                     <?
                     $child_array = $section["child"];
                     foreach ($child_array as $data_array) :
-
-                    ?>
-                        <h5 class="mb-3">کارشناسان دفتر ریاست در طبقه هشتم ابوریحان</h5>
+                    ?>  
+                        <br>
+                        <h5 class="mb-3 mt-4"><?echo $data_array["title"];?></h5>
                         <div class="card p-0">
                             <div class="card-bodys g-0 p-0">
                                 <table class="table">
