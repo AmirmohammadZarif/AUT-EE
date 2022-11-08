@@ -1,5 +1,5 @@
 <?php
-include_once './header.php';
+include './header.php';
 ?>
 <main data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container">
 
@@ -127,8 +127,9 @@ include_once './header.php';
             </div>
         </div>
     </div>
+    <?include "./components/search.php";?>
 </main>
 
 <?php
-include_once './footer.php';
+include './footer.php';
 ?>

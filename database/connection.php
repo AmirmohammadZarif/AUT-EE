@@ -1,8 +1,7 @@
 <?php
-    // include_once '../env.php';
-
     $dbHost = "localhost";
     $runsLocally = true;
+    
     if($runsLocally == true){
         $dbName     = "autee";
         $dbUsername = "root";

@@ -11,6 +11,7 @@
     <link href="./assets/css/styles.css" rel="stylesheet">
     <link href="./assets/css/all.min.css" rel="stylesheet">
 
+ 
     <title>دانشکده مهندسی برق | دانشگاه صنعتی امیرکبیر</title>
 </head>
 
@@ -56,7 +57,8 @@
                     </li>
                 </ul>
                 
-                <input type="text" id="search-input" onkeyup="myFunction()" placeholder="جستجو" title="جستجو">
+                <button onclick="openSearch()" class="btn btn-transparent search-btn" type="submit"><i class="fa fa-search"></i></button>
+
             </div>
         </div>
     </nav>
